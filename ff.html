@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+
+    }
+
+    body {
+      width: 100%;
+      background-color: black;
+    }
+
+    .bg1 {
+      width: 100%;
+      height: 1080px;
+      background-image: linear-gradient(transparent, black), url(./bg-full.jpg);
+      /* position: relative; */
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .bg2 {
+      width: 1400px;
+      height: 700px;
+      top: 0%;
+      left: 0%;
+      /* margin: 0px; */
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      /* display: flex; */
+      background: black;
+    }
+
+    .pic1 {
+      background-image: linear-gradient(transparent, black), url(./main.jpg);
+      background-repeat: no-repeat;
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      background-position-x: 50%;
+    }
+
+    .black {
+      width: 700px;
+      height: 700px;
+      background-color: black;
+      float: right;
+    }
+
+    .pic2 {
+      width: 200px;
+      height: 300px;
+      background-size: cover;
+      background-image: url(./ps4-ff7.png);
+      position: absolute;
+      background-repeat: no-repeat;
+      left: 18%;
+      top: 17%;
+      /* display: flex; */
+    }
+
+    .text1 {
+      width: 300px;
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 60%;
+      left: 14%;
+    }
+
+    .text1 p {
+      font-size: 8px;
+    }
+
+    .cloud {
+      /* background-image: url(./cloud.png); */
+      background-size: 20%;
+      width: 700px;
+      height: 350px;
+      /* float: right; */
+      float: right;
+      background: rgb(185, 185, 185);
+    }
+
+    .text2 {
+      width: 350px;
+      text-align: left;
+      color: black;
+      position: absolute;
+      top: 18%;
+      left: 52%;
+    }
+
+
+    .text3 {
+      width: 380px;
+      text-align: left;
+      color: white;
+      position: absolute;
+      top: 60%;
+      left: 70%;
+      z-index: 5;
+    }
+
+    .cloud_pic {
+      /* background-image: url(./cloud.png); */
+      /* width: 250px; */
+      /* height: 250px; */
+      position: absolute;
+      z-index: 50;
+      top: -54.5%;
+      left: 100%;
+      overflow: hidden;
+
+    }
+
+    .tifa_pic {
+      width: 75%;
+      position: absolute;
+      top: -20%;
+      left: -60%;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg1">
+    <div class="bg2">
+      <div class="pic1"></div>
+      <!-- <div class="black"> <img class="tifa_pic" src="./tifa.png"> -->
+      <div class="cloud">
+        <div class="text2">
+          <img class="cloud_pic" src="./cloud.png" width="80%">
+          <h1>Cloud</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id at quaerat nemo eius excepturi cupiditate
+            nisi
+            voluptates sunt rem error! Ex ea vitae laborum fugiat nihil, aperiam sint accusantium. Ab dolor eum
+            deserunt
+            maxime, eos ipsum.</p>
+        </div>
+      </div>
+
+      <div class="text3">
+        <h1>Tifa</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id at quaerat nemo eius excepturi cupiditate
+          nisi
+          voluptates sunt rem error! Ex ea vitae laborum fugiat nihil, aperiam sint accusantium. Ab dolor eum
+          deserunt
+          maxime, eos ipsum.</p>
+        <img class="tifa_pic" src="./tifa.png" width="80%">
+
+      </div>
+
+      <div class="pic2"></div>
+      <div class="text1">
+        <h1>AVALABLE NOW</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id at quaerat nemo eius excepturi cupiditate nisi
+          voluptates sunt rem error! Ex ea vitae laborum fugiat nihil, aperiam sint accusantium. Ab dolor eum deserunt
+          maxime, eos ipsum.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
